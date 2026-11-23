@@ -1,28 +1,22 @@
-# MÓDULO DE LABORATÓRIOS
-# Responsável: ______________________
-#
-# Implemente as funções CRUD abaixo.
-# Não altere os nomes das funções: o menu principal depende deles.
-
 
 def cadastrar_laboratorio():
     print("\n[LABORATÓRIOS] Cadastro ainda não implementado.")
-    # TODO: pedir os dados do laboratório e salvar o cadastro.
+    # pedir os dados do laboratório e salvar o cadastro.
 
 
 def listar_laboratorios():
     print("\n[LABORATÓRIOS] Listagem ainda não implementada.")
-    # TODO: mostrar todos os laboratórios cadastrados.
+    # mostrar todos os laboratórios cadastrados.
 
 
 def editar_laboratorio():
     print("\n[LABORATÓRIOS] Edição ainda não implementada.")
-    # TODO: localizar um laboratório e alterar seus dados.
+    # localizar um laboratório e alterar seus dados.
 
 
 def excluir_laboratorio():
     print("\n[LABORATÓRIOS] Exclusão ainda não implementada.")
-    # TODO: localizar um laboratório e excluir seu cadastro.
+    # localizar um laboratório e excluir seu cadastro.
 
 
 def menu_laboratorios():
