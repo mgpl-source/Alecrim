@@ -6,7 +6,7 @@ def mostrar_resumo():
 
 def mostrar_comparacao():
     print("\n[COMPARAÇÃO] Comparação ainda não implementada.")
-    # mostrar semelhanças, diferenças e limitações do produto.
+    # Pede para ele escolher um edital e mostra quais informações faltam do produto.
 
 
 def menu_comparacao():
