@@ -1,7 +1,7 @@
 
 def mostrar_resumo():
     print("\n[COMPARAÇÃO] Relatório ainda não implementado.")
-    # apresentar os dados e indicadores escolhidos pelo grupo.
+    # apresentar os dados e indicadores.
 
 
 def mostrar_comparacao():
