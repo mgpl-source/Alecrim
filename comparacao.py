@@ -1,7 +1,7 @@
 
 def mostrar_resumo():
     print("\n[COMPARAÇÃO] Relatório ainda não implementado.")
-    # apresentar os dados e indicadores.
+    # apresentar os dados e indicadores que o produtor já tem.
 
 
 def mostrar_comparacao():
