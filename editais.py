@@ -1,28 +1,22 @@
-# MÓDULO DE EDITAIS
-# Responsável: ______________________
-#
-# Implemente as funções CRUD abaixo.
-# Não altere os nomes das funções: o menu principal depende deles.
-
 
 def cadastrar_edital():
     print("\n[EDITAIS] Cadastro ainda não implementado.")
-    # TODO: pedir os dados do edital e salvar o cadastro.
+    # pedir os dados do edital e salvar o cadastro.
 
 
 def listar_editais():
     print("\n[EDITAIS] Listagem ainda não implementada.")
-    # TODO: mostrar todos os editais cadastrados.
+    # mostrar todos os editais cadastrados.
 
 
 def editar_edital():
     print("\n[EDITAIS] Edição ainda não implementada.")
-    # TODO: localizar um edital e alterar seus dados.
+    # localizar um edital e alterar seus dados.
 
 
 def excluir_edital():
     print("\n[EDITAIS] Exclusão ainda não implementada.")
-    # TODO: localizar um edital e excluir seu cadastro.
+    # localizar um edital e excluir seu cadastro.
 
 
 def menu_editais():
