@@ -1,18 +1,12 @@
-# MÓDULO DE COMPARAÇÃO
-# Responsável: ______________________
-#
-# Esta parte será adaptada aos critérios definidos pelo grupo
-# para comparar o protótipo com o sistema Alecrim.
-
 
 def mostrar_resumo():
     print("\n[COMPARAÇÃO] Relatório ainda não implementado.")
-    # TODO: apresentar os dados e indicadores escolhidos pelo grupo.
+    # apresentar os dados e indicadores escolhidos pelo grupo.
 
 
 def mostrar_comparacao():
     print("\n[COMPARAÇÃO] Comparação ainda não implementada.")
-    # TODO: mostrar semelhanças, diferenças e limitações do protótipo.
+    # mostrar semelhanças, diferenças e limitações do protótipo.
 
 
 def menu_comparacao():
