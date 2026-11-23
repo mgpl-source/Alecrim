@@ -1,28 +1,22 @@
-# MÓDULO DE PRODUTORES
-# Responsável: ______________________
-#
-# Implemente as funções CRUD abaixo.
-# Não altere os nomes das funções: o menu principal depende deles.
-
 
 def cadastrar_produtor():
     print("\n[PRODUTORES] Cadastro ainda não implementado.")
-    # TODO: pedir os dados do produtor e salvar o cadastro.
+    # pedir os dados do produtor e salvar o cadastro.
 
 
 def listar_produtores():
     print("\n[PRODUTORES] Listagem ainda não implementada.")
-    # TODO: mostrar todos os produtores cadastrados.
+    # mostrar todos os produtores cadastrados.
 
 
 def editar_produtor():
     print("\n[PRODUTORES] Edição ainda não implementada.")
-    # TODO: localizar um produtor e alterar seus dados.
+    # localizar um produtor e alterar seus dados.
 
 
 def excluir_produtor():
     print("\n[PRODUTORES] Exclusão ainda não implementada.")
-    # TODO: localizar um produtor e excluir seu cadastro.
+    # localizar um produtor e excluir seu cadastro.
 
 
 def menu_produtores():
