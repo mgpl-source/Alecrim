@@ -1,6 +1,18 @@
+editais = {}
+contador_id = 1 
 
 def cadastrar_edital():
-    print("\n[EDITAIS] Cadastro ainda não implementado.")
+    global contador_id
+    
+    print("\n=== CADASTRO DE EDITAL ===")
+    nome = input("Nome do edital: ")
+    instituicão = input("Instituição responsável: ")
+    prazo = input("Prazo de inscrição: ")
+    valor = float(input("Valor do edital: "))
+    
+    editais[contador_id] = {"nome": nome, "instituico": instituicão, "prazo": prazo, "valor": valor}
+    contador_id += 1
+    print("\nEdital cadastrado com sucesso!")
     # pedir os dados do edital e salvar o cadastro.
 
 
