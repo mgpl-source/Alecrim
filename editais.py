@@ -6,18 +6,27 @@ def cadastrar_edital():
     
     print("\n=== CADASTRO DE EDITAL ===")
     nome = input("Nome do edital: ")
-    instituicão = input("Instituição responsável: ")
+    instituicao = input("Instituição responsável: ")
     prazo = input("Prazo de inscrição: ")
     valor = float(input("Valor do edital: "))
     
-    editais[contador_id] = {"nome": nome, "instituico": instituicão, "prazo": prazo, "valor": valor}
+    editais[contador_id] = {"nome": nome, "instituicao": instituicao, "prazo": prazo, "valor": valor}
     contador_id += 1
     print("\nEdital cadastrado com sucesso!")
     # pedir os dados do edital e salvar o cadastro.
 
 
 def listar_editais():
-    print("\n[EDITAIS] Listagem ainda não implementada.")
+    print("\n=== EDITAIS CADASTRADOS ===")
+    if not editais:
+        print("Nenhum edital cadastrado")
+        return
+    for id_edital, dados in editais.items(): 
+        print(f"\nID: {id_edital}")
+        print(f"Nome: {dados['nome']}")
+        print(f"Instituição: {dados['instituicao']}")
+        print(f"Prazo: {dados['prazo']}")
+        print(f"Valor: R$ {dados['valor']}")
     # mostrar todos os editais cadastrados.
 
 
